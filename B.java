@@ -27,8 +27,4 @@ public class B implements C, K {
     public byte oo() {
         return 1;
     }
-
-    public Object rr() {
-        return null;
-    }
 }

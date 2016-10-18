@@ -27,8 +27,4 @@ public class D implements C, K {
     public byte oo() {
         return 4;
     }
-
-    public int cc() {
-        return 13;
-    }
 }
