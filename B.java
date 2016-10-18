@@ -35,4 +35,8 @@ public class B implements C, K {
     public String kk() {
         return "Yes";
     }
+
+    public int af() {
+        return -1;
+    }
 }
