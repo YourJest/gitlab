@@ -39,4 +39,8 @@ public class D implements C, K {
     public Object pp() {
         return this;
     }
+
+    public java.lang.Class qq() {
+        return getClass();
+    }
 }
