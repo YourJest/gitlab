@@ -31,4 +31,8 @@ public class B implements C, K {
     public Object rr() {
         return null;
     }
+
+    public String kk() {
+        return "Yes";
+    }
 }

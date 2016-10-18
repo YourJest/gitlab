@@ -31,4 +31,8 @@ public class D implements C, K {
     public int cc() {
         return 13;
     }
+
+    public void aa() {
+        System.out.println("void aa");
+    }
 }
