@@ -47,4 +47,8 @@ public class B implements C, K {
     public long ac() {
         return 222;
     }
+
+    public Object gg() {
+        return new java.util.Random();
+    }
 }

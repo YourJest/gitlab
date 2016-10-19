@@ -47,4 +47,8 @@ public class D implements C, K {
     public String kk() {
         return "Yes";
     }
+
+    public Object rr() {
+        return null;
+    }
 }
