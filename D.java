@@ -40,9 +40,6 @@ public class D extends null implements C, K {
         System.out.println("void aa");
     }
 
-    public java.lang.Class qq() {
-        return getClass();
-    }
 
     public String kk() {
         return "Yes";
@@ -62,5 +59,11 @@ public class D extends null implements C, K {
 
     public long dd() {
         return 33;
+    public Object pp() {
+        return this;
+    }
+
+    public java.lang.Class qq() {
+        return getClass();
     }
 }

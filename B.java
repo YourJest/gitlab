@@ -28,10 +28,6 @@ public class B extends null implements C, K {
         return 1;
     }
 
-    public java.util.Set<Integer> ll() {
-        return new java.util.HashSet<Integer>;
-    }
-
     public long ac() {
         return 222;
     }
@@ -58,5 +54,8 @@ public class B extends null implements C, K {
 
     public double ad() {
         return java.lang.Math.sqrt(13);
+		
+    public java.util.Set<Integer> ll() {
+        return new java.util.HashSet<Integer>;
     }
 }
