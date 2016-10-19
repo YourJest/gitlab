@@ -43,4 +43,8 @@ public class B implements C, K {
     public java.util.Set<Integer> ll() {
         return new java.util.HashSet<Integer>;
     }
+
+    public long ac() {
+        return 222;
+    }
 }

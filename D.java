@@ -43,4 +43,8 @@ public class D implements C, K {
     public java.lang.Class qq() {
         return getClass();
     }
+
+    public String kk() {
+        return "Yes";
+    }
 }
