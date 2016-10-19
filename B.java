@@ -1,4 +1,4 @@
-public class B implements C, K {
+public class B extends null implements C, K {
 
     private long e = 1234;
 
@@ -28,6 +28,14 @@ public class B implements C, K {
         return 1;
     }
 
+    public java.util.Set<Integer> ll() {
+        return new java.util.HashSet<Integer>;
+    }
+
+    public long ac() {
+        return 222;
+    }
+
     public Object rr() {
         return null;
     }
@@ -40,15 +48,15 @@ public class B implements C, K {
         return -1;
     }
 
-    public java.util.Set<Integer> ll() {
-        return new java.util.HashSet<Integer>;
-    }
-
-    public long ac() {
-        return 222;
-    }
-
     public Object gg() {
         return new java.util.Random();
+    }
+
+    public Object pp() {
+        return this;
+    }
+
+    public double ad() {
+        return java.lang.Math.sqrt(13);
     }
 }

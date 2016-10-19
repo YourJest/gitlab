@@ -1,4 +1,4 @@
-public class D implements C, K {
+public class D extends null implements C, K {
 
     private String c = "test";
 
@@ -28,16 +28,16 @@ public class D implements C, K {
         return 4;
     }
 
+    public Object pp() {
+        return this;
+    }
+
     public int cc() {
         return 13;
     }
 
     public void aa() {
         System.out.println("void aa");
-    }
-
-    public Object pp() {
-        return this;
     }
 
     public java.lang.Class qq() {
@@ -50,5 +50,17 @@ public class D implements C, K {
 
     public Object rr() {
         return null;
+    }
+
+    public long ac() {
+        return 111;
+    }
+
+    public double ad() {
+        return 9.11;
+    }
+
+    public long dd() {
+        return 33;
     }
 }
