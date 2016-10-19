@@ -39,4 +39,8 @@ public class B implements C, K {
     public int af() {
         return -1;
     }
+
+    public java.util.Set<Integer> ll() {
+        return new java.util.HashSet<Integer>;
+    }
 }
