@@ -28,12 +28,9 @@ public class D extends null implements C, K {
         return 4;
     }
 
+
     public int cc() {
         return 42;
-    }
-
-    public Object pp() {
-        return this;
     }
 
     public void aa() {
@@ -62,5 +59,13 @@ public class D extends null implements C, K {
 
     public long dd() {
         return 33;
+		
+    public Object pp() {
+        return this;
+    }
+
+    public java.lang.Class qq() {
+        return getClass();
+>>>>>>> branch2
     }
 }
